@@ -53,9 +53,42 @@ body {
 
 
 .footer {
-  color: white;
   background-color: #798c92;
-  height: 200px;
+  /*height: 200px;*/
   width: 100%;
 }
 
+.footer_info {
+  list-style: none;
+  color: white;
+}
+
+.footer-items {
+  color: white;
+}
+
+
+
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+  background-color: #d6b0a7;
+  color: #798c92;
+
+}
+
+
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}*/
