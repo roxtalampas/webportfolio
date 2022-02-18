@@ -1,0 +1,61 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;	
+  }
+
+  div {
+  	font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+
+.jumbotron{ 
+  /*background-image: url('./images/desk_3.jpg'); */
+  background-size: cover; 
+  background-position: center bottom;
+  height: 800px;
+  background-color: #798c92 !important;
+} 
+
+body {
+  color: #157575 !important;
+  background-color: #ead7c7 !important;
+}
+
+
+#Profile {
+  height: 400px;
+}
+
+
+#Projects {
+  background-color: #d2d2e0;
+}
+
+.navbar {
+  background-color: #ead7c7;
+}
+
+.nav-link {
+  color: #157575 !important;
+}
+
+.navbar-brand {
+  color: #157575 !important;
+}
+
+
+.footer {
+  color: white;
+  background-color: #798c92;
+  height: 200px;
+  width: 100%;
+}
+
