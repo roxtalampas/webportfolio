@@ -16,17 +16,28 @@ body {
 
 
 
-.jumbotron{ 
-  /*background-image: url('./images/desk_3.jpg'); */
+#jumbotron{ 
+  background-image: url('./images/background3.jpg'); 
   background-size: cover; 
-  background-position: center bottom;
-  height: 800px;
-  background-color: #798c92 !important;
+  background-position: center center;
+  height: 600px;
+  color: white;
 } 
 
+#jumbotron-title {
+  font-size: 90px;
+}
+
+#jumbotron-title ~ p {
+  font-size: 21px;
+  border-top: 10px;
+}
+
+
+
 body {
-  color: #157575 !important;
-  background-color: #ead7c7 !important;
+  color: #157575;
+  background-color: #ead7c7;
 }
 
 
@@ -45,10 +56,17 @@ body {
 
 .nav-link {
   color: #157575 !important;
+font-size: 21px;
 }
 
 .navbar-brand {
   color: #157575 !important;
+  font-size: 23px !important;
+}
+
+.btn {
+  background-color: #157575;
+  color: white;
 }
 
 
@@ -84,11 +102,3 @@ body {
 
 }
 
-
-/*.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}*/
