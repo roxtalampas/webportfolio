@@ -70,12 +70,11 @@ font-size: 21px;
 }
 
 
+/*Modal*/
 .modal-content{
     background-color: #ead7c7;
     opacity: 90%;
 }
-
-
 
 .modal-footer {
     border-top: 0 none;
