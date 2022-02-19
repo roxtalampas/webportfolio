@@ -1,4 +1,6 @@
 
+
+/*Universal Selectors*/
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +10,30 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;	
+  color: #157575;
+  background-color: #ead7c7;
   }
 
-  div {
-  	font-family: 'Josefin Sans', sans-serif;
-  }
+
+
+/*Navbar*/
+.navbar {
+  background-color: #ead7c7;
+}
+
+.nav-link {
+  color: #157575 !important;
+font-size: 21px;
+}
+
+.navbar-brand {
+  color: #157575 !important;
+  font-size: 23px !important;
+}
 
 
 
+/*Landing Page*/
 #jumbotron{ 
   background-image: url('./images/background3.jpg'); 
   background-size: cover; 
@@ -34,35 +52,17 @@ body {
 }
 
 
-
-body {
-  color: #157575;
-  background-color: #ead7c7;
-}
-
-
+/*About Me*/
 #Profile {
   height: 400px;
 }
 
 
+/*My Projects*/
 #Projects {
   background-color: #d2d2e0;
 }
 
-.navbar {
-  background-color: #ead7c7;
-}
-
-.nav-link {
-  color: #157575 !important;
-font-size: 21px;
-}
-
-.navbar-brand {
-  color: #157575 !important;
-  font-size: 23px !important;
-}
 
 .btn {
   background-color: #157575;
@@ -70,6 +70,20 @@ font-size: 21px;
 }
 
 
+.modal-content{
+    background-color: #ead7c7;
+    opacity: 90%;
+}
+
+
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+
+
+/*Footer*/
 .footer {
   background-color: #798c92;
   /*height: 200px;*/
@@ -84,11 +98,6 @@ font-size: 21px;
 .footer-items {
   color: white;
 }
-
-
-
-
-
 
 .fa {
   padding: 10px;

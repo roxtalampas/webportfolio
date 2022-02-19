@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
 
-	<!-- Font Style -->
+	<!--  Font Style  -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -14,11 +14,11 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-	<!-- Bootstrap CSS -->
+	<!--  Bootstrap CSS  -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
 
-	<!-- CSS Stlyesheet -->
+	<!--  CSS Stlyesheet  -->
 	<link rel="stylesheet" href="./style.css">
 
 
@@ -26,7 +26,7 @@
 </head>
 <body>
 
-	<!-- Navbar -->
+	<!--  Navbar  -->
 	<nav class="navbar navbar-expand-lg">
 		<a class="navbar-brand" href="./index.html">Roxanne Talampas</a>
 		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,10 +50,10 @@
 			</ul>
 		</div>
 	</nav>
-	<!-- end of navbar -->
+	<!--  end of navbar  -->
 
 
-	<!-- Landing Page -->
+	<!--  Landing Page  -->
 	<div class="jumbotron jumbotron-fluid" id="jumbotron">
 	  <div class="container text-center my-5" id="jumbotron-inner">
 	    <h1 id="jumbotron-title">Hello! I'm Roxanne</h1>
@@ -61,35 +61,35 @@
 	    <p class="d-inline-block border-top py-3">I build and design websites focused on user's experience. </p>
 	  </div>
 	</div>
+	<!--  End of Landing Page  -->
 
 
-	<!-- About Me -->
-	<div class="text-center">
+	<!--  About Me  -->
+	<section class="text-center">
 		
-		<h1 class=" d-inline-block mt-5 display-3" id="About-Me">About Me</h1>
+		<h1 class="mt-5 display-3" id="About-Me">About Me</h1>
 		
 		<div class="container">
-		<div class="row mx-auto">
+		<div class="row mx-auto p-2">
 			<div class="col-12 col-md-6">
-			<img src="./images/profile2.jpg" id="Profile" class="img-fluid d-block mx-auto">
+			<img src="./images/profile2.jpg" id="Profile" class="img-fluid mx-auto d-inline-block rounded">
 			</div>
-			<div class="col-12 col-md-6 py-3 text-justify">
+			<div class="col-12 col-md-6 py-3 text-justify py-md-5">
 			<p>
-			I'm a Developer based in Manila, Philippines. Prior to pursuing Web Development, I've worked as a technical support for a Mobile Application where it opened by eyes to this beautiful world of coding. As a web developer, the fullfullment of solving complex problems, transforming ideas to reality, and creating new things, sparks a feeling of  for me.</p>
-
-			<p>Other things that I'm passionate about are traveling, playing musical instruments, and of course, COFFEE. </p>
+			I'm a Developer based in Manila, Philippines. Prior to pursuing Web Development, I've worked as a technical support for a Mobile Application where it opened by eyes to this beautiful world of coding. As a web developer, I focus on solving complex problems, transforming ideas to reality, and turning new solutions to pleasing designs. 
+			<p>Other things that I'm passionate about are traveling, cooking, playing musical instruments, and of course, COFFEE. </p>
 			</div>
 		</div>
 		</div>
-
 
 
 		<!-- Projects -->
 		<h1 class="mt-5 display-3" id="My-Projects">My Projects</h1>
+		<h5 class="m-3">PROJECTS THAT I'VE COMPLETED</h5>
 			<p></p>
 
 			<div class=" card-deck justify-content-center">
-				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-auto px-3">
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mx-auto p-2">
 					<div class="col mb-4">
 						<div class="card">
 							<img src="./images/card.jpg" class="card-img-top">
@@ -124,13 +124,27 @@
 			</div>
 
 
-
 		<!-- Contact -->
 		<h1 class="display-3 mt-5" id="Contact">Contact</h1>
+		<h5 class="m-3">LET'S GET INTOUCH</h5>
+
+		<!-- Modal -->
+		<div class="modal fade" id="SendEmail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		             <p class="mt-5">Email Sent! I'll get back to you asap.</p>
+		           </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 	
 			<!-- Form  -->
-			<div class="container-fluid">
-				<div class="row mx-auto mb-5">
+			<div class="container-fluid mx-auto">
+				<div class="row mx-auto mb-5 p-3">
 					<form class=" col-12 col-md-6 ">
 						<div>
 						<label type="name">Name</label>
@@ -149,24 +163,24 @@
 						</div>
 						  
 						</div>
-						<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+						<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#SendEmail">Send Email</button>
 					</form>	
 				
-					<!--  End of Form -->
+					<!--   End of Form  -->
 
 
-					<!--  Map  -->
-					<div class="col-12 col-md-6 map-responsive pt-4">
-						<iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.5179391060956!2d121.09638232921856!3d14.537888099365153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c6395c2ecf59%3A0x1e71ebfff522aece!2s124-F%20Etacio%20St%2C%20Taguig%2C%201638%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1645026670838!5m2!1sen!2sph" width="510" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					<!--   Map   -->
+					<div class="col-12 col-md-6 map-responsive map-fluid mt-5 mt-md-0">
+						<iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.5179391060956!2d121.09638232921856!3d14.537888099365153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c6395c2ecf59%3A0x1e71ebfff522aece!2s124-F%20Etacio%20St%2C%20Taguig%2C%201638%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1645026670838!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
 				</div>	
-
 			</div>
+
 
 		<!--  Footer  -->
 
 		<footer class="footer p-3">
-			<!-- <div class="footer_info container mx-auto"> -->
+			<div class="footer_info container mx-auto">
 				<nav id="nav-footer">
 				<ul class="footer_info d-flex justify-content-center d-inline-block">
 					<li class="p-2">
@@ -183,18 +197,19 @@
 					</li>
 				</ul>
 				</nav>
-			<!-- </div> -->
+			</div>
 
 			
 			<div class="container text-center">
 				<a href="https://www.facebook.com/rox.talampas" target="_blank" class="fa fa-facebook"></a>
 				<a href="https://github.com/roxtalampas" target="_blank" class="fa fa-github"></a>
 				<a href="https://www.linkedin.com/in/roxanne-talampas-64408883/" target="_blank" class="fa fa-linkedin"></a>
-
-
 			</div>
 		</footer>
-	</div>
+		<!--  End of Footer  -->
+
+	
+	</section>
 
 
 
