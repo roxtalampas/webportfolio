@@ -74,6 +74,10 @@ font-size: 21px;
 }
 
 
+.card{
+  height: 550px;
+}
+
 .btn {
   background-color: #157575;
   color: white;
