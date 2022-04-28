@@ -52,25 +52,52 @@ font-size: 21px;
 }
 
 
-/*About Me*/
-#Profile {
-  max-width: 100%;
-  height: auto;
-}
+/* ABOUT ME */
 
-.quote {
-  font-size: 20px;
-  font-style: italic;
-  opacity: 80%;
-  margin-bottom: 0;
-  text-align: center;
-}
+
+/* Section1 */
+  #Profile {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .quote {
+    font-size: 20px;
+    font-style: italic;
+    opacity: 80%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+
+/* Section2 */
+
+  .section2{
+    background-color: #98BEC8;
+    padding: 30px;
+    
+  }
+
+  .section2 h1{
+    color: #FDF0EC;
+    margin-bottom: 40px;
+  }
+
+  .techLogosCol{
+    padding: 20px;
+    color: #26555D;
+
+
+  }
+
+
+
 
 
 
 /*My Projects*/
 #Projects {
-  background-color: #d2d2e0;
+  background-color: #d6b0a7;
 }
 
 
@@ -123,4 +150,10 @@ font-size: 21px;
   color: #798c92;
 
 }
+
+
+
+
+
+
 
